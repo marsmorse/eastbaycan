@@ -1,0 +1,396 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+/* ==========================================================================
+   Hero Landing
+   ========================================================================== */
+
+/* image container */
+.hero{
+    /* Sizing */
+    width: 100vw;
+    -moz-width: 100vw;
+    -webkit-width: 100vw;
+    height: 100vh;
+    -moz-border-height: 100vh;
+    -webkit-height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    -moz-display: flex;
+    -webkit-display: flex;
+
+    justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    -moz-text-align: center;
+    -webkit-text-align: center;
+    color:white;
+    -moz-color:white;
+    -webkit-color:white;
+    /* image scaling */
+    background-image: url("../img/hills.jpg");
+    -moz-background-image: url("../img/hills.jpg");
+    -webkit-background-image: url("../img/hills.jpg");
+    background-position: center center;
+    -moz-background-position: center center;
+    -webkit-background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+}
+.socialIcon{
+    display: block;
+}
+.hero h1 {
+    /* Text styles */
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.hero .btn {
+    /* Positioning and sizing */
+    display: inline-block;
+    width: 200px;
+    
+    /* Border styles */
+    margin-right:20px;
+    margin: 80px 30px;
+}
+.btn:hover{
+    background-color: #526A52;
+    color:#CBF8CA;
+    margin-top:79px;
+    
+}
+#bannerButtonAlt{
+    background-color: rgb(133, 234, 252);
+    color:rgb(70, 120, 129);
+}
+#bannerButtonAlt:hover{
+    background-color: rgb(70, 120, 129);
+    color:rgb(133, 234, 252);
+}
+
+#bannertopLinks{
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%, -30%);
+    position: absolute;
+    margin-right:20px;
+}
+/* textbox in image */
+svg{
+    margin-right: 12px;
+    -moz-margin-right: 12px;
+    -webkit-margin-right: 12px;
+}
+#fbButton{
+    -moz-background-color:#4367b4;
+    -webkit-background-color:#4367b4;
+    background-color:#4367b4;
+    color:white;
+    -moz-color:white;
+    -webkit-color:white;
+}
+#fbButton:hover{
+    -moz-background-color:white;
+    -webkit-background-color:white;
+    background-color:white;
+    color:#4367b4;
+    -moz-color:#4367b4;
+    -webkit-color:#4367b4;
+}
+
+/* ==========================================================================
+   Info Tiles
+   ========================================================================== */
+
+    #logo {
+        font-size: 1.25em;
+        font-family: 'Crimson Pro', serif;
+        
+    }
+    .top-bar {
+        background-color: white;
+    }
+    video{
+        position:relative;
+    }
+    .btn{
+        font-size: 1.25em;
+        background-color: #CBF8CA;
+        color:#526A52;
+        width: 100px;
+        border-radius: 5px;
+        text-align: center;
+        left:45%;
+        margin: 60px;
+        padding:15px;
+    }
+    .btn-container{
+        margin: 80px 0;
+    }
+    .btn a{
+        color:#526A52;
+    }
+     p{
+        line-height: 2em;
+        text-indent: 3em;
+    }
+    .middle {
+        background-color: #585858;
+        color: #DFDFDF;
+        text-align: center;
+    }
+    .middle .infotile-header {
+        color: #F0F0F0;
+ 
+    }
+    #sponsors{
+        background-color: #E1E1E1;
+        padding: 80px 0;
+    }
+    #donate {
+        background-color: #526A52;
+    }
+    .infotile-header{
+        color: #606060;
+        text-align: center;
+        margin-top: 40px;
+
+    }
+    .content {
+        padding: 10px 60px;
+
+
+    
+    }
+    .link {
+        margin: 0 20px;
+    }
+    .linkBox{
+        margin: 30px 0;
+        text-align: center;
+    }
+    /* ==========================================================================
+   Topbar CSS
+   ========================================================================== */
+    /*
+    .top-bar ul {
+        background-color: white;
+    }
+
+*/
+   /* ==========================================================================
+   Page CSS
+   ========================================================================== */
+   body, html{
+    height: 100%;
+   }
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
